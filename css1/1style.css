@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614430775_57-p-fon-v-temnom-stile-69.jpg");
+}
+.img-box-glove{
+    width: 300px;
+    height: 300px;
+    border: solid 5px black;
+    border-radius: 25px;
+    display:inline-block;
+    background-color: brown;
+    }
+    
+    .img-box-glove:hover{
+    border: solid 5px blue;
+    width: 302px;
+    height: 302px;
+    }
+    
+    .block{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .img-box-glove:active{
+        border: solid 5px rgb(94, 255, 0);
+        width: 300px;
+        height: 300px;
+    }
+    .title-fight{
+        color: rgb(0, 255, 17);
+        text-align: center;
+        font-size: 30px;
+        border: solid 5px gold;
+    }
